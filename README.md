@@ -2,6 +2,10 @@
 
 A Chrome extension to block annoying or repetitive GIFs on X. x-gif-blocker uses perceptual hashing to identify and hide GIFs based on its visual content, ensuring that even if the same GIF is re-uploaded or served from a different URL, it stays blocked.
 
+<p align="center">
+  <img src="./resources/img/gr.gif" alt="gr" width="35%" height="35%">
+</p>
+
 ## ![ryan](./resources/img/ryan40.png) Features
 
 - **Visual Blocking**: Blocks GIFs based on their visual content, not just their filename or URL.
@@ -11,6 +15,10 @@ A Chrome extension to block annoying or repetitive GIFs on X. x-gif-blocker uses
 - **Unblock Management**: Easily unblock any GIF from the extension popup.
 - **Import/Export**: Import/export your JSON blocklists.
 - **Performance Optimized**: Uses lazy loading and offscreen canvas processing to minimize memory and CPU usage.
+
+<p align="center">
+  <img src="./resources/img/ui.png" alt="ui" width="35%" height="35%">
+</p>
 
 ## ![okai](./resources/img/okai40.png) pHash (muh keys)
 
