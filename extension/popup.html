@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>X GIF Blocker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>X GIF Blocker</h1>
+    
+    <div class="section">
+      <label class="switch">
+        <input type="checkbox" id="muteOnBlock">
+        <span class="slider"></span>
+        <span class="label-text">Mute user on GIF block</span>
+      </label>
+    </div>
+
+    <div class="section">
+      <button id="exportHashes">Export Blocked Hashes</button>
+      <button id="importHashes">Import Blocked Hashes</button>
+      <input type="file" id="importFile" style="display: none;" accept=".json">
+      <button id="clearHashes" class="danger">Clear All Blocks</button>
+    </div>
+
+    <div class="stats">
+      <p>Blocked GIFs: <span id="gifCount">0</span></p>
+      <p>Muted Users: <span id="userCount">0</span></p>
+    </div>
+
+    <div class="section">
+      <button id="toggleBlockList" style="background-color: #536471;">View Block List</button>
+      <div id="blockList" class="block-list hidden"></div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
