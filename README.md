@@ -1,5 +1,7 @@
 # x-gif-blocker
 
+Install from Chrome Webstore [here](https://chromewebstore.google.com/detail/x-gif-blocker/edhflmacplnmfbmeodeafnnpmgcieahe).
+
 A Chrome extension to block annoying or repetitive GIFs on X. x-gif-blocker uses perceptual hashing to identify and hide GIFs based on its visual content, ensuring that even if the same GIF is re-uploaded or served from a different URL, it stays blocked.
 
 <p align="center">
